@@ -37,8 +37,8 @@ for(int x=0;x<=1000;x+=37)
  
  void scale(int x, int y)
 {
-  int random=((int)Math.random()*2);
-  System.out.println(random);
+  int random1=((int)Math.random()*2);
+  System.out.println(random1);
   fill(25,255,65);
   rect(x-18,y,36,40);
 
@@ -55,4 +55,3 @@ for(int x=0;x<=1000;x+=37)
    triangle(x,y+10,x+9,y+15,x-9,y+15);
    
   }
-
