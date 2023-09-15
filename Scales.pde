@@ -34,7 +34,7 @@ for(int x=0;x<=1000;x+=37)
  void scale(int x, int y)
 {
   int random1=((int)Math.random()*2);
-  System.out.println(random1);
+
   fill(25,255,65);
   rect(x-18,y,36,40);
 
